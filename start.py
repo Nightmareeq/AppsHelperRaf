@@ -112,7 +112,7 @@ def get_model(message):
 @bot.callback_query_handler(func=lambda call: True)
 def helper(call):
     if call.data == 'help':
-        bot.send_message(call.message.chat.id, 'Если у тебя возникли вопросы или нужна помощь, не стесняйся — свяжись с @helperpromraf, и он(а) обязательно поможет разобраться.')
+        bot.send_message(call.message.chat.id, 'Если у тебя возникли вопросы или нужна помощь, не стесняйся — свяжись с @helperafionadmin, и он(а) обязательно поможет разобраться.')
 
 @bot.message_handler(commands=['block'])
 def finish_cmd(message):
@@ -201,3 +201,4 @@ while True:
         time.sleep(3)
 
  
+
