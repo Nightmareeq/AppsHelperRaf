@@ -2,7 +2,7 @@ import time
 import telebot
 from telebot import types
 
-bot = telebot.TeleBot('8470495923:AAG3MMzaCxAMo594WMwOEadXNgUbdlfnYNw')
+bot = telebot.TeleBot('8542819475:AAEpy4aXEZvrlynOpCMTGi57gsWRupOhiJo')
 
 data = {}
 username_index = {}
@@ -201,4 +201,5 @@ while True:
         time.sleep(3)
 
  
+
 
